@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="black">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
+      <style>
+
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.charm-bold {
+  font-family: "Charm", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+      </style>
+      
+</head>
+<body>
+    <header> 
+         
+
+     <!-- navbar -->
+
+      <div class="navbar bg-base-100  bg-[#A0DEFF] ">
+        <div class="flex-1">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm text-black dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base bg-blue-300 font-semibold">
+              <li><a>Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a>Services</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Pricing</a></li>
+              <li><a>Contact</a></li>
+
+
+            </ul>
+          </div>
+          <img src="picture/android-chrome-512x512.png" class="h-16 ml-6 rounded-full" alt="">
+          <a class=" btn charm-bold btn-ghost text-4xl mr-10 text-black">Piccures</a>
+        </div>
+        <div class="navbar-center hidden lg:flex ">
+          <ul class="menu menu-horizontal text-black text-base px-1 font-bold">
+            <li><a>Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a>Services</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Pricing</a></li>
+            <li><a>Contact</a></li>     
+          </ul>
+        </div>
+        <div class="">
+     
+        </div>
+      </div>
+
+      <!-- video section -->
+
+      <div>
+      <video autoplay muted loop plays-inliine  > <source src="picture/Banner.MOV" type="video/mp4"> </video>
+      </div>
+        </header>
+
+     
+        <main> 
+         <!-- Services part -->
+          <section>
+            <div class="carousel w-full lg:h-[750px] bg-[#A0DEFF] ">
+              
+          
+              <div id="slide1" class="carousel-item relative w-full">
+                <div class="flex flex-col lg:flex-row gap-40 p-4 lg:p-24">
+                  
+                  <h1 class="text-5xl font-bold absolute left-[850px]" ></h1>
+                  <div class="space-y-7 flex-1 pt-44 ml-52">
+                    <h2 class="text-2xl text-black lg:text-6xl font-bold">Clipping Path.</h2>
+                    <div class="gap-10 font-bold text-black"> 
+                      <li> Manually clipped images only </li>
+                      <li>Deep etching</li>
+                      <li>Only product or Transparent background</li>
+                      <li>Cut out image</li>
+                      <li>Background removal</li></div>
+                      
+    
+                  <button class="btn hover:bg-blue-300 rounded-md ">Purchase</button></div>
+                  <div class="flex-1 mt-44 ml-20" > <img src="picture/Clipping-path-before-after-sample-for-bag-sunglass.png" class="w-[800px]" /></div>
+                </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide7" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+  
+                <div id="slide2" class="carousel-item relative w-full">
+                  <div class="flex flex-col lg:flex-row gap-40 p-4 lg:p-24">
+                    
+                    <h1 class="text-5xl font-bold absolute left-[850px]" ></h1>
+                    <div class="space-y-7 flex-1 pt-44 ml-52 lg: w-[200px]">
+                    <h2 class="text-2xl lg:text-6xl font-bold">Color Correction.</h2>
+                      <div class=" font-bold"> 
+                        <li>  Color changing service to obtain multiple results</li>
+                        <li>Color Tone & Exposure adjustments</li>
+                        <li>Hue saturation adjustment for temperature and tint</li>
+                        <li>Brightness and Shadow adjustment</li>
+                        <li>Product enhancement</li></div>
+                        
+      
+                    <button class="btn hover:bg-blue-300 ">Purchase</button></div>
+                    <div class="flex-1 mt-36 ml-20 " > <img src="picture/file2.png" class="w-[1000px]" /></div>
+                  </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide1" class="btn btn-circle">❮</a> 
+                      <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                  </div>
+  
+                  <div id="slide3" class="carousel-item relative w-full">
+                    <div class="flex flex-col lg:flex-row gap-40 p-4 lg:p-24">
+                      
+                      <h1 class="text-5xl font-bold absolute left-[850px]" ></h1>
+                      <div class="space-y-7 flex-1 pt-44 ml-20 ">
+                        <h2 class="text-2xl lg:text-6xl font-bold">Ghost Mannequin and Liquify.</h2>
+                        <div class="gap-10 font-bold"> 
+                          <li> Removing Mannequin  </li>
+                          <li>Wrinkles and Dust removal</li>
+                          <li> Inserting neck part to obtain ghost effect </li>
+                          <li> Symmetrical Products
+                          </li>
+                          <li> Identical Front and Back apparels
+                          </li></div>
+                          
+        
+                      <button class="btn hover:bg-blue-300 ">Purchase</button></div>
+                      <div class="flex-1 mt-44 mr-10 relative" > <img src="picture/mane.jpg" class="w-[800px]" /></div>
+                    </div>
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a> 
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                      </div>
+                    </div>
+  
+                    <div id="slide4" class="carousel-item relative w-full">
+                      <div class="flex flex-col lg:flex-row gap-40 p-4 lg:p-24">
+                        
+                        <h1 class="text-5xl font-bold absolute left-[850px]" ></h1>
+                        <div class="space-y-7 flex-1 pt-44 ml-52">
+                          <h2 class="text-2xl lg:text-6xl font-bold">Image Masking.</h2>
+                          <div class="gap-10 font-bold"> 
+                            <li> Layer & Alpha Channel Masking </li>
+                            <li>Best Hair Masking</li>
+                            <li>Perfecting All edges
+                            </li>
+                            <li>Maintaining Accuracy</li>
+                            <li>Huge Production Capacity</li></div>
+                            
+                            
+                        <button class="btn hover:bg-blue-300 ">Purchase</button></div>
+                        <div class="flex-1 mt-44 ml-20" > <img src="picture/mas.jpg" class="w-[800px]" /></div>
+                      </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                          <a href="#slide3" class="btn btn-circle">❮</a> 
+                          <a href="#slide5" class="btn btn-circle">❯</a>
+                        </div>
+                      </div>
+  
+                      <div id="slide5" class="carousel-item relative w-full">
+                        <div class="flex flex-col lg:flex-row gap-40 p-4 lg:p-24">
+                          
+                          <h1 class="text-5xl font-bold absolute left-[850px]" >Services</h1>
+                          <div class="space-y-7 flex-1 pt-44 ml-52">
+                            <h2 class="text-2xl lg:text-6xl font-bold">Jewelry and Product Retouching.</h2>
+                            <div class="gap-10 font-bold"> 
+                              <li>Complex retouching to obtain high end result </li>
+                              <li> Reflection, dust & scratches removal</li>
+                              <li>Color Tone Adjustment
+                              </li>
+                              <li>Photo Enhancement
+                              </li>
+                              <li>Adding Reflection or Shadow
+                              </li></div>
+                              
+                              
+                          <button class="btn hover:bg-blue-300 ">Purchase</button></div>
+                          <div class="flex-1 mt-44 ml-20" > <img src="picture/pixelcut-export.png" class="w-[800px]" /></div>
+                        </div>
+                          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a> 
+                            <a href="#slide6" class="btn btn-circle">❯</a>
+                          </div>
+                        </div>
+  
+                        <div id="slide5" class="carousel-item relative w-full">
+                          <div class="flex flex-col lg:flex-row gap-40 p-4 lg:p-24">
+                            
+                            <h1 class="text-5xl font-bold absolute left-[850px]" ></h1>
+                            <div class="space-y-7 flex-1 pt-44 ml-52">
+                              <h2 class="text-2xl lg:text-6xl font-bold">Jewelry and Product Retouching.</h2>
+                              <div class="gap-10 font-bold"> 
+                                <li>Complex retouching to obtain high end result </li>
+                                <li> Reflection, dust & scratches removal</li>
+                                <li>Color Tone Adjustment
+                                </li>
+                                <li>Photo Enhancement
+                                </li>
+                                <li>Adding Reflection or Shadow
+                                </li></div>
+                                
+                                
+                            <button class="btn hover:bg-blue-300 ">Purchase</button></div>
+                            <div class="flex-1 mt-44 ml-20" > <img src="picture/pixelcut-export.png" class="w-[800px]" /></div>
+                          </div>
+                            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                              <a href="#slide4" class="btn btn-circle">❮</a> 
+                              <a href="#slide6" class="btn btn-circle">❯</a>
+                            </div>
+                          </div>
+  
+                          <div id="slide6" class="carousel-item relative w-full">
+                            <div class="flex flex-col lg:flex-row gap-40 p-4 lg:p-24">
+                              
+                              <h1 class="text-5xl font-bold absolute left-[850px]" ></h1>
+                              <div class="space-y-7 flex-1 pt-44 ml-52">
+                                <h2 class="text-2xl lg:text-6xl font-bold">Photo Restoration
+                                </h2>
+                                <div class="gap-10 font-bold"> 
+                                  <li> Restoring any photos </li>
+                                  <li>Dust & Scratches Removal </li>
+                                  <li>Recreating part of the photo
+                                  </li>
+                                  <li>Adding or Removing People or Elements
+  
+                                  </li>
+                                  <li>Recolor Black & white photos
+                                    
+                                  </li></div>
+                                  
+                                  
+                              <button class="btn hover:bg-blue-300 ">Purchase</button></div>
+                              <div class="flex-1 mt-36 ml-20" > <img src="picture/res.png" class="w-[800px]" /></div>
+                            </div>
+                              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide5" class="btn btn-circle">❮</a> 
+                                <a href="#slide7" class="btn btn-circle">❯</a>
+                              </div>
+                            </div>
+  
+                            <div id="slide7" class="carousel-item relative w-full">
+                              <div class="flex flex-col lg:flex-row gap-40 p-4 lg:p-24">
+                                
+                                <h1 class="text-5xl font-bold absolute left-[850px]" >Services</h1>
+                                <div class="space-y-7 flex-1 pt-44 ml-52">
+                                  <h2 class="text-2xl lg:text-6xl font-bold">Model Retouching </h2>
+                                  <div class="gap-10 font-bold"> 
+                                    <li>  Spots or Blemishes Retouching </li>
+                                    <li>Skin Tone Adjustments </li>
+                                    <li>Removing Birth Marks or Wrinkles</li>
+                                    <li>
+                                       Body parts adjustments
+  
+                                    </li>
+                                    <li>
+                                      Fixing imperfections on clothing
+                                    </li></div>
+                                    
+                                    
+                                <button class="btn hover:bg-blue-300 ">Purchase</button></div>
+                                <div class="flex-1 mt-20 ml-20" > <img src="picture/model.png" class="w-[800px]" /></div>
+                              </div>
+                                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                  <a href="#slide6" class="btn btn-circle">❮</a> 
+                                  <a href="#slide1" class="btn btn-circle">❯</a>
+                                </div>
+                              </div>
+  
+  
+                             
+  
+                            
+        
+      
+                            </section>
+          
+
+          <!-- About part -->
+          <section class=" mt-[400px]">
+                              
+            <div class="flex ">
+              <div class="w-[50%] ">
+                <img class="h-[900px] relative left-80 top-36   " src="picture/abt.jpg" alt="">
+              </div>
+  
+  
+  
+              <div class="w-[50%] ml-72">
+                <h1 class="font-extrabold text-5xl ">Introducing <span class="text-blue-300"> Piccures </span>
+                </h1>
+                 <div class="bg-blue-300 h-[1px] w-[500px] mt-10"></div>
+                 <div class="bg-blue-300 h-[1px] w-[450px] mt-3 ml-7"></div>
+                
+                <p class="font-medium mt-20 w-[500px]"> is a highly skilled and experienced team dedicated to providing top-notch photo editing services to clients worldwide. With a strong passion for our work and access to advanced technology, we utilize sophisticated editing techniques to deliver outstanding results. Our business boasts a well-established infrastructure that enables us to efficiently handle a high volume of projects. <br>
+  <br>
+                  One of our key strengths is offering competitively priced services without compromising on quality. We understand the needs of the eCommerce and photography industries, and our goal is to meet and exceed the expectations of our clients. Over the years, we have successfully assisted thousands of businesses with their photo editing needs, building long-term relationships with many satisfied customers. <br>
+                  <br>
+
+                  Our team consists of professional editors, designers, and graphic artists who are extensively trained and possess exceptional skills. With their expertise, we can provide services that meet the standards of professional editors. We take pride in delivering consistent and exceptional results, which is evident in the positive feedback and repeat business we have received from our clients. <br>
+                  <br>
+                  When you choose Mastermind Graphics, you can expect a dedicated and talented team that is committed to understanding and fulfilling your specific requirements. We prioritize customer satisfaction and strive to maintain a high level of professionalism, reliability, and efficiency in every project we undertake. <br>
+                  
+                  <br>
+                  Whether you need background removal, retouching, color correction, or any other photo editing service, we have the expertise and resources to deliver exceptional results. Partnering with Mastermind Graphics ensures that your photo editing needs are in capable hands, and we look forward to serving you and exceeding your expectations.</p>
+  
+              </div>
+            </div>
+            </section>
+
+            
+            <section class="flex mt-[300px]">
+            <div class="w-[20%] relative left-[300px] "><h1 class="text-4xl font-bold 
+              ">
+              What Makes Us Unique?</h1>
+
+              <p class="font-semibold">
+                Unlike other companies we do not require any upfront payments for the services you need.
+                Our extraordinary graphic designers are well trained and equipped with the best technology.
+                We provide our services world wide and we are committed to meet their requirements.
+                You will be 100% Satisfied with our services before you make any payments.
+
+                Unlike other companies we do not require any upfront payments for the services you need.
+                Our extraordinary graphic designers are well trained and equipped with the best technology.
+                We provide our services world wide and we are committed to meet their requirements.
+                You will be 100% Satisfied with our services before you make any payments.
+              </p>
+               
+          </div>
+
+
+           <!-- Card -->
+            <div class="w-[] flex gap-8 pl-[500px]">
+
+              <div class="card bg-base-100 w-64 rounded-xl shadow-lg shadow-blue-300">
+                <div class="card-body">
+                  <h2 class="card-title text-3xl text-center mt-14">Faster
+                    Delivery</h2>
+                 
+                </div> 
+                <figure class="mb-10">
+                  <img class="w-[150px]"
+                    src="picture/complete_12964027.png"
+                    alt="Shoes" />
+                </figure>
+              </div>
+               
+
+
+              <div class="card bg-base-100 w-64 rounded-xl shadow-lg shadow-blue-300">
+                <div class="card-body">
+                  <h2 class="card-title text-3xl mt-8 text-center">100% <br> Satisfaction Guaranteed</h2>
+                 
+                </div>
+                <figure class="mb-10">
+                  <img class="w-[150px]"
+                    src="picture/happy_599626.png"
+                    alt="Shoes" />
+                </figure>
+              </div>
+
+              <div class="card bg-base-100 w-64 rounded-xl shadow-lg shadow-blue-300">
+                <div class="card-body ">
+                  <h2 class="card-title text-3xl text-center mt-14 -ml-3">Best Communication</h2>
+             
+                </div>
+                <figure class="mb-10">
+                  <img class="w-[150px]"
+                    src="picture/customer-service-agent_2597476.png"
+                    alt="Shoes" />
+                </figure>
+              </div>
+              
+                
+            </div>
+
+            </section>
+
+            <br>
+
+            <!-- Work Process -->
+            <section class="text-center mt-48">
+              <img src="picture/right-arrow_12871949.png" class="w-10  relative left-[750px] top-[40px]" alt="">
+              <h1 class=" text-3xl font-semibold text-blue-300">
+                Our Work Process
+              </h1>
+              <h1 class="text-5xl font-bold mt-10">
+                Follow the simple steps to complete work
+              </h1>
+
+              <div class="flex gap-10 pl-60 mt-40
+               ">
+               
+               
+                <div class="card bg-base-100 w-64 h-[500px] shadow-lg shadow-blue-300 ">
+                  <div class="card-body text-center">
+                    <h2 class="font-bold text-xl text-blue-300 ">Step 01</h2>
+                    <p class=" font-bold text-2xl ">place an order</p>
+
+                    <div class="bg-blue-300 h-[1px]"></div>
+                    <p class="mt-10">You can place an <br> order on our website <br> by filling out the form. <br> Or you can get in <br> touch directly via <br> email. Our Email Id is <br> Our Specialist will contact you right away.</p>
+              
+                  </div>
+                 
+                </div>
+
+
+                <div class="card bg-base-100 w-64 h-[500px] shadow-lg shadow-blue-300 ">
+                  <div class="card-body text-center">
+                    <h2 class="font-bold text-xl text-blue-300 ">Step 02</h2>
+                    <p class=" font-bold text-2xl ">Get a Response shortly</p>
+
+                    <div class="bg-blue-300 h-[1px]"></div>
+                    <p class="mt-10">One of our customer communication specialist will contact you right away. We value your time!</p>
+              
+                  </div>
+                 
+                </div>
+
+                <div class="card bg-base-100 w-64 h-[500px] shadow-lg shadow-blue-300 ">
+                  <div class="card-body text-center">
+                    <h2 class="font-bold text-xl text-blue-300 ">Step 03</h2>
+                    <p class=" font-bold text-2xl ">Upload the files
+                    </p>
+
+                    <div class="bg-blue-300 h-[1px]"></div>
+                    <p class="mt-10">You can upload the images that require editing via wetransfer, dropbox or FTP server. We will need all the necessary instructions to obtain the best results.</p>
+              
+                  </div>
+                 
+                </div>
+
+
+                <div class="card bg-base-100 w-64 h-[500px] shadow-lg shadow-blue-300 ">
+                  <div class="card-body text-center">
+                    <h2 class="font-bold text-xl text-blue-300 ">Step 04</h2>
+                    <p class=" font-bold text-2xl ">Download Finished Files</p>
+
+                    <div class="bg-blue-300 h-[1px]"></div>
+                    <p class="mt-10">Within 24 hours or faster you will receive a download link of the edited images via email. You can then download them to your computer with a simple click of a button.</p>
+              
+                  </div>
+                 
+                </div>
+                
+
+                <div class="card bg-base-100 w-64 h-[100%vh] shadow-lg shadow-blue-300 ">
+                  <div class="card-body text-center">
+                    <h2 class="font-bold text-xl text-blue-300 ">Step 05</h2>
+                    <p class=" font-bold text-2xl ">Make a Payment</p>
+
+                    <div class="bg-blue-300 h-[1px]"></div>
+                    <p class="mt-10">After you have checked all your images and satisfied with the results you can make the payments. We also accept weekly and monthly payments for regular customers.</p>
+              
+                  </div>
+                 
+                </div>
+ 
+
+
+              </div>
+            </section>
+
+
+
+            <!-- WeTransfer Part -->
+            <section class="text-center mt-[300px]">
+
+              <div class="bg-gradient-to-b from-black via-black to-blue-300 flex items-center justify-center  min-h-screen">
+                <h1 class="text-[350px] text-gray-600 opacity-20 relative left-[300px]"> Piccures</h1>
+
+
+              <div class="relative right-[600px] bottom-[200px]">
+                <img src="picture/right-arrow_12871949.png" class="w-10  relative left-[100px] top-[40px]" alt="">
+  
+                <h1 class=" text-3xl font-semibold text-blue-300">
+                  Work With Us
+                </h1>
+                <h1 class="text-5xl font-bold mt-8">
+                  Upload Your Files To Our
+                </h1><h1 class="text-7xl font-bold mt-1 text-blue-300">
+                  WeTransfer Server
+                </h1>
+
+
+                <button class="bg-black text-white border-2 border-white rounded-full px-8 py-4 hover:bg-blue-300 hover:border-blue-300 hover:text-black transition relative top-32">
+                  Get Free Trial
+                </button>
+              
+              
+              </div>
+            
+
+
+        
+            </div>
+            </section>
+
+
+
+             <!-- Client Section -->
+            <section class="text-center mt-[400px]">
+
+
+              <h1 class="text-4xl font-bold">Who Are Our <span class="
+                text-blue-300"> Potential Clients?</span> 
+              </h1>
+
+              <h1 class="text-xl mt-10">If you are a professional Photographer, Ecommerce Retailer, media production or an advertising agency, we can help you with perfect image editing services today.
+
+              </h1>
+
+
+
+
+              <div class="flex gap-20 mt-20 pl-80">
+
+                <div>
+                  <div class="card bg-base-100 w-64 h-[500px] shadow-lg shadow-blue-300 ">
+                    <div class="card-body text-center mt-10">
+                       
+                      <img src="picture/camera_8005731.png" alt="">
+  
+                      <div class="bg-blue-300 h-[1px]"></div>
+                      <p class="mt-10 text-2xl font-semibold">Professional Photographer</p>
+                
+                    </div>
+                   
+                  </div>
+   
+                </div>
+  
+  
+  
+                
+                <div>
+                  <div class="card bg-base-100 w-64 h-[500px] shadow-lg shadow-blue-300 ">
+                    <div class="card-body text-center mt-10">
+                       
+                      <img src="picture/multimedia_12925145.png" alt="">
+  
+                      <div class="bg-blue-300 h-[1px]"></div>
+                      <p class="mt-10 text-2xl font-semibold">Media Production</p>
+                
+                    </div>
+                   
+                  </div>
+   
+                </div>
+  
+                
+                <div>
+                  <div class="card bg-base-100 w-64 h-[500px] shadow-lg shadow-blue-300 ">
+                    <div class="card-body text-center mt-10">
+                       
+                      <img src="picture/online-shop_586656.png" alt="">
+  
+                      <div class="bg-blue-300 h-[1px]"></div>
+                      <p class="mt-10 text-2xl font-semibold">Ecommerce Retailer</p>
+                
+                    </div>
+                   
+                  </div>
+   
+                </div>
+  
+  
+                
+                <div>
+                  <div class="card bg-base-100 w-64 h-[500px] shadow-lg shadow-blue-300 ">
+                    <div class="card-body text-center mt-10">
+                       
+                      <img src="picture/rooftop_8674664.png" alt="">
+  
+                      <div class="bg-blue-300 h-[1px]"></div>
+                      <p class="mt-10 text-2xl font-semibold">Advertising Agency</p>
+                
+                    </div>
+                   
+                  </div>
+   
+                </div>
+  
+
+              </div>
+
+
+
+
+
+            </section>
+
+
+            <!-- Qustion part -->
+            <section  class="flex mt-36">
+            <div class="w-[40%] relative left-80">
+
+              <h1 class=" text-4xl font-bold">
+                <span class="text-blue-300">
+                  Your Questions
+                </span> <br>
+                 Our Answers
+              </h1>
+              <h1 class="mt-10">We are committed to provide 100% satisfactory quality services to our <br> clients. <br>
+                <br>
+
+                Our designers are highly skilled, trained and provided with a friendly work <br> environment to produce the ultimate results on every images. Furthermore, <br> we take constant actions to ensure our commitments towards our clients. <br>
+                 We intend to easier the process for our customers. <br>
+                 <br>
+                
+                Here are some questions  we are asked most frequently by our clients and <br> our answers to it.</h1>
+
+
+            </div>
+
+            <div class="w-[30%] relative left-80 ">
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-2xl font-medium text-blue-300">How do I send the images?</div>
+                <div class="collapse-content">
+                  <p>We share images through Wetransfer, Dropbox or FTP server.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-2xl font-medium text-blue-300">How long does it take to complete an order?</div>
+                <div class="collapse-content">
+                  <p>We usually deliver any quantity of images within 24 hours.
+                    Sometimes due to higher complexity we might require more time.
+                    However it will always be discussed and confirmed before we start processing the order.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-2xl font-medium text-blue-300">What are your working hours?</div>
+                <div class="collapse-content">
+                  <p>We normally work from Monday to Friday.
+                    We follow European standard time to make sure we are always available during our customers working hours as well.</p>
+                </div>
+              </div>
+
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-2xl font-medium text-blue-300">What are your working hours?</div>
+                <div class="collapse-content">
+                  <p>We normally work from Monday to Friday.
+                    We follow European standard time to make sure we are always available during our customers working hours as well.</p>
+                </div>
+              </div>
+
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-2xl font-medium text-blue-300">Is There A File Size Limit For Uploading Images?</div>
+                <div class="collapse-content">
+                  <p>No, there is no restriction on the size for uploading Images.</p>
+                </div>
+              </div>
+
+
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-2xl font-medium text-blue-300">Is there any certain format or type of raw files that you work on?</div>
+                <div class="collapse-content">
+                  <p>It is completely our client’s choice as we can work on any format or type of images that requires editing.</p>
+                </div>
+              </div>
+
+
+
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-2xl font-medium text-blue-300">Do you offer Free trial or Samples?</div>
+                <div class="collapse-content">
+                  <p>Yes, we will provide you with a free trial to ensure we have followed every instructions provided before we start working on the entire batch of images.</p>
+                </div>
+              </div>
+
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-2xl font-medium text-blue-300">Do You Charge By The Project Or By The Image?</div>
+                <div class="collapse-content">
+                  <p>Depends on your project. Call us or send us a message for a better understanding.</p>
+                </div>
+              </div>
+
+
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-2xl font-medium text-blue-300">What are your payment terms?</div>
+                <div class="collapse-content">
+                  <p>We usually provide weekly, monthly or project basis invoices, based on that our clients can make the payments via Paypal, Payoneer or Bank transfer.</p>
+                </div>
+              </div>
+            </div>
+
+            </section>
+
+
+         
+
+            <br>
+
+          
+  
+        </main>
+
+
+        <!-- End part -->
+        <footer class="footer bg-base-200 text-base-content p-10 mt-48">
+          <nav>
+            <h6 class="footer-title">Services</h6>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+          </nav>
+          <nav>
+            <h6 class="footer-title">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover"></a>
+            <a class="link link-hover"></a>
+          </nav>
+          <nav>
+            <h6 class="footer-title">Legal</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+          </nav>
+        </footer>
+        <footer class="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
+          <aside class="grid-flow-col items-center">
+           <img class="w-12" src="picture/android-chrome-512x512.png" alt="">
+            <p>
+              <span class="text-blue-300 text-4xl">
+                Piccures
+              </span> 
+              <br />
+              Providing reliable tech since 2017
+            </p>
+          </aside>
+          <nav class="md:place-self-center md:justify-self-end">
+            <div class="grid grid-flow-col gap-4">
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current">
+                  <path
+                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+                </svg>
+              </a>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current">
+                  <path
+                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+                </svg>
+              </a>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="fill-current">
+                  <path
+                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+                </svg>
+              </a>
+            </div>
+          </nav>
+        </footer>
+
+
+
+       
+</body>
+</html>
