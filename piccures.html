@@ -52,9 +52,9 @@
         <div class="flex-1">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </div>
-            <ul tabindex="0" class="menu menu-sm text-black dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base bg-blue-300 font-semibold">
+            <ul tabindex="0" class="menu menu-sm text-black dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base bg-[#A0DEFF] font-semibold">
               <li><a>Home</a></li>
               <li><a href="portfolio.html">Portfolio</a></li>
               <li><a>Services</a></li>
@@ -65,7 +65,7 @@
 
             </ul>
           </div>
-          <img src="picture/android-chrome-512x512.png" class="h-16 ml-6 rounded-full" alt="">
+          <img src="picture/android-chrome-512x512.png" class="h-16  rounded-full" alt="">
           <a class=" btn charm-bold btn-ghost text-4xl mr-10 text-black">Piccures</a>
         </div>
         <div class="navbar-center hidden lg:flex ">
@@ -86,18 +86,18 @@
       <!-- video section -->
 
       <div>
-      <video autoplay muted loop plays-inliine  > <source src="picture/Banner.MOV" type="video/mp4"> </video>
+      <video autoplay muted loop plays-inliine class=" w-screen"  > <source src="picture/Banner.MOV" type="video/mp4"> </video>
       </div>
         </header>
 
      
-        <main> 
+        <main class=""> 
          <!-- Services part -->
-          <section>
+          <section class="">
             <div class="carousel w-full lg:h-[750px] bg-[#A0DEFF] ">
               
           
-              <div id="slide1" class="carousel-item relative w-full">
+              <div id="slide1" class="carousel-item relative flex items-center justify-center w-full">
                 <div class="flex flex-col lg:flex-row gap-40 p-4 lg:p-24">
                   
                   <h1 class="text-5xl font-bold absolute left-[850px]" ></h1>
@@ -112,7 +112,7 @@
                       
     
                   <button class="btn hover:bg-blue-300 rounded-md ">Purchase</button></div>
-                  <div class="flex-1 mt-44 ml-20" > <img src="picture/Clipping-path-before-after-sample-for-bag-sunglass.png" class="w-[800px]" /></div>
+                  <div class="flex-1 mt-44" > <img src="picture/Clipping-path-before-after-sample-for-bag-sunglass.png" class="w-[800px]" /></div>
                 </div>
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide7" class="btn btn-circle">❮</a> 
@@ -305,28 +305,28 @@
                              
   
                             
-        
+                            </div>
       
                             </section>
           
 
           <!-- About part -->
-          <section class=" mt-[400px]">
+          <section class=" mt-[400px]  w-screen">
                               
-            <div class="flex ">
-              <div class="w-[50%] ">
-                <img class="h-[900px] relative left-80 top-36   " src="picture/abt.jpg" alt="">
+            <div class=" flex-row  lg:flex items-center justify-center min-h-screen">
+              <div class="relative right-14 top-20 ">
+                <img class="h-[900px]  " src="picture/abt.jpg" alt="">
               </div>
   
   
   
-              <div class="w-[50%] ml-72">
+              <div class=" ">
                 <h1 class="font-extrabold text-5xl ">Introducing <span class="text-blue-300"> Piccures </span>
                 </h1>
                  <div class="bg-blue-300 h-[1px] w-[500px] mt-10"></div>
-                 <div class="bg-blue-300 h-[1px] w-[450px] mt-3 ml-7"></div>
+                 <div class="bg-blue-300 h-[1px] w-[430px] mt-3  relative left-[2rem]"></div>
                 
-                <p class="font-medium mt-20 w-[500px]"> is a highly skilled and experienced team dedicated to providing top-notch photo editing services to clients worldwide. With a strong passion for our work and access to advanced technology, we utilize sophisticated editing techniques to deliver outstanding results. Our business boasts a well-established infrastructure that enables us to efficiently handle a high volume of projects. <br>
+                <p class="font-medium mt-20 w-[30rem]"> is a highly skilled and experienced team dedicated to providing top-notch photo editing services to clients worldwide. With a strong passion for our work and access to advanced technology, we utilize sophisticated editing techniques to deliver outstanding results. Our business boasts a well-established infrastructure that enables us to efficiently handle a high volume of projects. <br>
   <br>
                   One of our key strengths is offering competitively priced services without compromising on quality. We understand the needs of the eCommerce and photography industries, and our goal is to meet and exceed the expectations of our clients. Over the years, we have successfully assisted thousands of businesses with their photo editing needs, building long-term relationships with many satisfied customers. <br>
                   <br>
@@ -343,12 +343,12 @@
             </section>
 
             
-            <section class="flex mt-[300px]">
-            <div class="w-[20%] relative left-[300px] "><h1 class="text-4xl font-bold 
+            <section class="flex mt-[300px] items-center justify-center  min-h-screen">
+            <div class="w-[20%] relative left-[150px] "><h1 class="text-4xl font-bold 
               ">
               What Makes Us Unique?</h1>
 
-              <p class="font-semibold">
+              <p class="font-semibold"> 
                 Unlike other companies we do not require any upfront payments for the services you need.
                 Our extraordinary graphic designers are well trained and equipped with the best technology.
                 We provide our services world wide and we are committed to meet their requirements.
@@ -364,7 +364,7 @@
 
 
            <!-- Card -->
-            <div class="w-[] flex gap-8 pl-[500px]">
+            <div class="w-[] flex gap-8 pl-[250px]">
 
               <div class="card bg-base-100 w-64 rounded-xl shadow-lg shadow-blue-300">
                 <div class="card-body">
@@ -422,7 +422,7 @@
                 Follow the simple steps to complete work
               </h1>
 
-              <div class="flex gap-10 pl-60 mt-40
+              <div class="flex gap-10 items-center justify-center  min-h-screen mt-40
                ">
                
                
@@ -444,7 +444,7 @@
                     <h2 class="font-bold text-xl text-blue-300 ">Step 02</h2>
                     <p class=" font-bold text-2xl ">Get a Response shortly</p>
 
-                    <div class="bg-blue-300 h-[1px]"></div>
+                    <div class="bg-blue-300 h-[1px] relative bottom-14  "></div>
                     <p class="mt-10">One of our customer communication specialist will contact you right away. We value your time!</p>
               
                   </div>
@@ -478,7 +478,7 @@
                 </div>
                 
 
-                <div class="card bg-base-100 w-64 h-[100%vh] shadow-lg shadow-blue-300 ">
+                <div class="card bg-base-100 w-64 h-[500px] shadow-lg shadow-blue-300 ">
                   <div class="card-body text-center">
                     <h2 class="font-bold text-xl text-blue-300 ">Step 05</h2>
                     <p class=" font-bold text-2xl ">Make a Payment</p>
@@ -501,7 +501,7 @@
             <section class="text-center mt-[300px]">
 
               <div class="bg-gradient-to-b from-black via-black to-blue-300 flex items-center justify-center  min-h-screen">
-                <h1 class="text-[350px] text-gray-600 opacity-20 relative left-[300px]"> Piccures</h1>
+                <h1 class="text-[20rem] text-gray-600 opacity-20 relative left-[300px]"> Piccures</h1>
 
 
               <div class="relative right-[600px] bottom-[200px]">
@@ -547,7 +547,7 @@
 
 
 
-              <div class="flex gap-20 mt-20 pl-80">
+              <div class="flex items-center justify-center  min-h-screen gap-20 mt-20 ">
 
                 <div>
                   <div class="card bg-base-100 w-64 h-[500px] shadow-lg shadow-blue-300 ">
@@ -626,8 +626,8 @@
 
 
             <!-- Qustion part -->
-            <section  class="flex mt-36">
-            <div class="w-[40%] relative left-80">
+            <section  class="flex items-center justify-center gap-10  min-h-screen mt-36">
+            <div class="">
 
               <h1 class=" text-4xl font-bold">
                 <span class="text-blue-300">
@@ -647,7 +647,7 @@
 
             </div>
 
-            <div class="w-[30%] relative left-80 ">
+            <div class=" w-[30%] ">
               <div class="collapse collapse-arrow bg-base-200">
                 <input type="radio" name="my-accordion-2" checked="checked" />
                 <div class="collapse-title text-2xl font-medium text-blue-300">How do I send the images?</div>
